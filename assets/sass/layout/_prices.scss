@@ -1,0 +1,28 @@
+#precios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 890px;
+    background-image: url(../images/bg-price.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prices-div__cards{
+    position: relative;
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 570px;
+    grid-gap: 70px;
+    top: 4.5rem;
+}
+.prices__title{
+    z-index: 1;
+    color: $white;
+    font-weight: $bold;
+    font-size: $xxxx-large;
+    font-family: $raleway;
+    position: relative;
+    top: 3rem;
+}

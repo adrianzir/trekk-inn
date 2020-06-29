@@ -1,0 +1,45 @@
+.card-head_container{
+    padding: 1rem 2rem ;
+    .card-head{
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid $nickel;
+        padding-bottom: 2rem;
+    .card-title{
+        font-size: $xxx-large;
+    }
+    strong{
+        font-size: $xxxxx-large;
+        font-family: $raleway;
+    }
+}
+}
+.card-body{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul{
+        border-bottom: 1px solid $spanish-gray;
+        li{
+            line-height: 180%;
+            list-style-position: inside;
+            font-size: $large;
+            color: $onyx;
+        }
+    }
+
+}
+.card-1__text{
+    padding-bottom: 148px;
+}
+.card-2__text{
+    padding-bottom: 40px;
+}
+.card{
+    border-radius: 0 !important;
+    &:hover{
+        box-shadow: 13px 10px 20px $nickel;
+    }
+}

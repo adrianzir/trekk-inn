@@ -1,0 +1,20 @@
+.footer{
+    background-color: $raising-black;
+    color: $silver-chalice;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+    height: 25%;
+}
+.footer__div-1{
+    ul{
+        display: flex;
+        flex-direction: row;
+        li{
+            list-style: none;
+            margin-right: 2rem;
+        }
+        
+    }
+}

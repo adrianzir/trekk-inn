@@ -1,0 +1,27 @@
+/*import of each document*/
+//import abstracts
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+//import base
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+//import components
+@import 'components/buttons';
+@import 'components/cards';
+
+//import layout 
+@import 'layout/features';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navbar';
+@import 'layout/prices';
+
+//import pages
+
+//import themes
+
+//import vendors
+@import 'vendors/bootstrap-og/bootstrap.scss';

@@ -1,0 +1,85 @@
+#caracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        color: $raising-black;
+        font-weight: $bold;
+        font-size: $xxx-large;
+        font-family: $raleway;
+    }
+}
+.features__bigbox{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 0;
+    .features__text{
+        width: 400px;
+        display: inline-block;
+        text-align: left;
+        line-height: 200%;
+        h3{
+        color: $raising-black;
+        font-weight: $bold;
+        font-size: $xx-large;
+        }
+        p{
+            margin: 0;
+            font-size: $small;
+        }
+    }
+
+
+}
+//------------------------------------animation---------------------------------//
+#pink-bars{
+    animation-name: change;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+#blue-bars{
+     animation-name: powerup;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+     animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+//________________________________keyframes_________________________//
+@keyframes change {
+    0%{
+        fill: $dark-salmon;
+    }
+    25%{
+        fill: $melon;
+    }
+    50%{
+        fill: $pale-pink;
+    }
+    100%{
+        fill: $white;
+    }
+}
+@keyframes powerup {
+    0%{
+        fill: $ball-blue;
+    }
+    50%{
+        fill: $middle-blue;
+    }
+    75%{
+        fill: $blue-lagoon;
+    }
+    100%{
+        fill: $onyx;
+    }
+}

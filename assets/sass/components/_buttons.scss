@@ -1,0 +1,46 @@
+.card-button{
+    background-color: $ball-blue;
+    color: $white !important;
+    width: 90%;
+    height: 3.5rem;
+    font-size: $x-large;
+    border-radius: 0 !important;
+    margin: 1rem 0;
+    border: 1px solid $ball-blue !important;
+}
+#nav-button_1{
+    background-color: $ball-blue;
+    color: $white !important;
+    border-radius: 0 !important;
+     border: 1px solid $ball-blue !important;
+}
+#card-button__1:hover,#card-button__2:hover, #nav-button_1:hover{
+    background-color: $middle-blue ;
+    color: $white;
+    transition: all  1s ease-out 0.5ms;
+    &:focus{
+        background-color: $lavender-gray;
+        color: $white;
+        border: 1px solid $lavender-gray !important;
+    }
+}
+#nav-button_2{
+    background-color: $white;
+    color: $raising-black;
+    border-radius: 0;
+    border: none;
+    &:hover{
+        background-color: $Gray;
+        border: 1px solid $Gray;
+    }
+    &:focus{
+        background-color: $lavender-gray;
+        border: 1px solid $lavender-gray;
+    }
+}
+.nav__button{
+    width: 9rem;
+    font-size: $large !important;
+    height: 3rem;
+    margin-right: 1rem;
+}
